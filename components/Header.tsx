@@ -31,12 +31,12 @@ export default function Header() {
     <header
       className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md transition-all duration-300"
     >
-      <nav className="container-custom px-4 sm:px-6 lg:px-8 py-1.5 sm:py-2 lg:py-6">
+      <nav className="container-custom px-4 sm:px-6 lg:px-8 py-3 sm:py-3 lg:py-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link
             href="/"
-            className="text-xl sm:text-2xl lg:text-3xl font-bold text-primary hover:text-primary-dark transition-colors"
+            className="text-2xl sm:text-2xl lg:text-3xl font-bold text-primary hover:text-primary-dark transition-colors"
           >
             Xo Service
           </Link>
