@@ -20,7 +20,7 @@ export default function HeroSection() {
   return (
     <section
       ref={containerRef}
-      className="relative min-h-[35vh] flex items-center justify-center overflow-hidden pt-32"
+      className="relative min-h-[35vh] flex items-center justify-center overflow-hidden pt-20 sm:pt-24 lg:pt-32"
     >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
@@ -58,7 +58,7 @@ export default function HeroSection() {
       {/* Content */}
       <motion.div
         style={{ opacity }}
-        className="relative z-10 container-custom section-padding text-center"
+        className="relative z-10 container-custom px-4 sm:px-6 lg:px-8 py-8 sm:py-16 lg:py-28 text-center"
       >
         <motion.div
           initial={{ opacity: 0, y: 30 }}
