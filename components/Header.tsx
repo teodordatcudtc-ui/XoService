@@ -31,7 +31,7 @@ export default function Header() {
     <header
       className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md transition-all duration-300"
     >
-      <nav className="container-custom section-padding py-4 lg:py-6">
+      <nav className="container-custom section-padding py-2 sm:py-3 lg:py-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link
@@ -98,7 +98,7 @@ export default function Header() {
                   key={item.href}
                   href={item.href}
                   onClick={() => setIsOpen(false)}
-                  className={`block py-2 text-lg font-medium transition-colors ${
+                  className={`block py-2 text-lg font-medium transition-colors pl-4 lg:pl-0 ${
                     pathname === item.href
                       ? 'text-primary'
                       : 'text-accent hover:text-primary'
@@ -109,10 +109,10 @@ export default function Header() {
               ))}
               <a
                 href="tel:0768802902"
-                className="flex items-center gap-2 py-3 px-4 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors"
+                className="flex items-center justify-center gap-2 py-3 px-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors mx-4 lg:mx-0 lg:px-4"
               >
                 <Phone size={20} />
-                <span className="font-medium">0768 802 902</span>
+                <span className="font-medium text-sm lg:text-base">0768 802 902</span>
               </a>
             </div>
           </motion.div>
