@@ -117,7 +117,7 @@ export default function TestimonialsCarousel() {
 
                   {/* Content */}
                   <p className="text-lg text-accent mb-8 flex-grow leading-relaxed">
-                    "{testimonials[currentIndex].content}"
+                    &ldquo;{testimonials[currentIndex].content}&rdquo;
                   </p>
 
                   {/* Author */}
